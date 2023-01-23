@@ -12,6 +12,7 @@ body {
 }
 
 header {
+    background: #000;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -106,6 +107,9 @@ input:checked {
 }
 
 @media(max-width: 570px) {
+    header {
+        padding: 30px;
+    }
 
     button div {
         display: none;
@@ -116,6 +120,7 @@ input:checked {
     header {
         display: flex;
         flex-direction: column;
+        padding: 30px;
     }
     
     button {
