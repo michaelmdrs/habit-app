@@ -120,10 +120,21 @@ input:checked {
     header {
         display: flex;
         flex-direction: column;
-        padding: 30px;
+        padding: 5px;
+    }
+
+    header .logo {
+        width: 150px;
     }
     
     button {
+        border: 1px solid #04d361;
         margin-top: 20px;
+    }
+
+    input:checked {
+        background: #04d361;
+        border: 2px solid #A78BFA;
+        border-radius: 8px;
     }
 }
